@@ -1,0 +1,10 @@
+{
+  "name": "dsh-compaction-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BasicCompactionEngine subclass replacing the default checkpoint with a handoff-style work-state brief (end-of-dialog compaction), plus a summarizer fallback chain.",
+  "scripts": {
+    "test": "node --test test/engine.test.js && node test/activation.smoke.mjs"
+  }
+}
